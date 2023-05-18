@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARTH VARDE CONTRATA</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="src/components/navBar.js" defer></script>
+    <script src="src/components/boxProduto.js" defer></script>
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/tituloDinamico.js" defer></script>
+</head>
+<body>  
+    <header>
+        <nav-bar
+        nome="Joao Morais"
+        ></nav-bar>
+    </header>
+
+    <div class="app-root">
+        <card-news
+        autor="Joao Morais"
+        title="Darth Vader Contrata Devs"
+        photo="assets/asset-vader.jfif"
+        link-url="www.google.com/vader"
+        noticia="Lord Vader prucura desenvolvedores que saibam trabalhar com componentes."
+        
+    ></card-news>
+
+    
+    <div class="produto-content">
+
+        <produto-component
+        foto="assets/ps5.jpg"
+        nomeProduto="PlayStation 5"
+        valorProduto="R$ 5.000,00"
+        ></produto-component>
+
+        <produto-component
+        foto="assets/ps4.jpg"
+        nomeProduto="PlayStation 4"
+        valorProduto="R$ 4.000,00"
+        ></produto-component>
+
+    </div>
+
+</body>
+</html>
